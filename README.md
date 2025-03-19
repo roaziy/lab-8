@@ -27,13 +27,6 @@ B241940029 - Erkhemtur.A
     - Manages `ArrayList<Livestock>`.
     - Implements `addLivestock()` and `dailyRoutine()`.
 
-## Code Structure
-
-- `Livestock`: Abstract class with common properties.
-- `WorkRole`: Interface for animal tasks.
-- `Horse`, `Sheep`, `Camel`, `Goat`: Specific animal classes.
-- `Herd`: Manages livestock and their daily activities.
-
 ## How to Run
 
 1.  Clone the repo.
