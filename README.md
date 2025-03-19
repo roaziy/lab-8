@@ -1,6 +1,6 @@
 # Nomad Livestock Simulation
 
-A Java simulation of a Mongolian nomadic family's livestock management using OOP principles.
+OOP зарчмуудыг ашиглан Монголын нүүдэлчин айлын мал аж ахуйн менежментийн Java загварчлал.
 
 ## Object oriented programming - Seminar 3.2
 
@@ -13,6 +13,19 @@ B241940029 - Erkhemtur.A
 - **Classes (`Horse`, `Sheep`, `Camel`, `Goat`):** Implement different animal behaviors.
 - **Polymorphism:** Manages diverse animals uniformly.
 - **Herd Class:** Simulates daily routines.
+
+## Code Structure
+
+- **`Livestock` (Abstract Class):**
+    - Defines `name`, `age`, `makeSound()`, and `graze()`.
+- **`WorkRole` (Interface):**
+    - Defines `performTask()`.
+- **Animal Classes (`Horse`, `Sheep`, `Camel`, `Goat`):**
+    - Extend `Livestock`, implement `WorkRole` (if applicable).
+    - Override `makeSound()` and `performTask()`.
+- **`Herd` Class:**
+    - Manages `ArrayList<Livestock>`.
+    - Implements `addLivestock()` and `dailyRoutine()`.
 
 ## Code Structure
 
